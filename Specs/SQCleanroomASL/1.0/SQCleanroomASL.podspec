@@ -86,7 +86,7 @@ LICENSE
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/pchaurasiya/CleanroomASL", :tag => "2.0"}
+  s.source       = { :git => "https://github.com/pchaurasiya/CleanroomASL.git", :tag => "2.0"}
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
