@@ -10,7 +10,7 @@
 The `ASLPriorityLevel` enum represents the documented `ASL_LEVEL_*` constant
 values.
 */
-//import SwiftyBeaver
+import Log4swift
 public enum ASLPriorityLevel: Int32 // EnumerableEnum
 {
     /// Represents the `ASL_LEVEL_EMERG` constant.

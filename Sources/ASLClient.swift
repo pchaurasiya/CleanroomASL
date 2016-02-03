@@ -7,7 +7,8 @@
 //
 
 import Foundation
-//import SwiftyBeaver
+
+import Log4swift
 #if SWIFT_PACKAGE_MANAGER   // we import ASL as a module only when building with the
 import ASL                  // Swift Package Manager (SPM); in Xcode, the use the
 #endif                      // bridging header to import the ASL API

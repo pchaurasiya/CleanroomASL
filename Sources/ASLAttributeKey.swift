@@ -13,7 +13,7 @@ values.
 These values can be used to set or retrieve attributes on `ASLObject`
 instances.
 */
-//import SwiftyBeaver
+import Log4swift
 
 public enum ASLAttributeKey: String
 {
