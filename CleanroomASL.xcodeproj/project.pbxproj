@@ -29,6 +29,7 @@
 		3BC7273F1C24B52D003BC28A /* ASLPriorityLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC727301C24B52D003BC28A /* ASLPriorityLevel.swift */; };
 		3BC727401C24B52D003BC28A /* ASLPriorityLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC727301C24B52D003BC28A /* ASLPriorityLevel.swift */; };
 		3BC727411C24B52D003BC28A /* ASLPriorityLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC727301C24B52D003BC28A /* ASLPriorityLevel.swift */; };
+		E771D2761C6215BF00CCCB8B /* asl.h in Headers */ = {isa = PBXBuildFile; fileRef = E771D2751C6215BF00CCCB8B /* asl.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +92,7 @@
 		3BC7272E1C24B52D003BC28A /* ASLClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASLClient.swift; sourceTree = "<group>"; };
 		3BC7272F1C24B52D003BC28A /* ASLObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASLObject.swift; sourceTree = "<group>"; };
 		3BC727301C24B52D003BC28A /* ASLPriorityLevel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASLPriorityLevel.swift; sourceTree = "<group>"; };
+		E771D2751C6215BF00CCCB8B /* asl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = asl.h; path = "../../../../../Volumes/Macintosh HD/usr/include/asl.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -223,6 +225,7 @@
 		3BCBACE11BA369AD007F1C90 = {
 			isa = PBXGroup;
 			children = (
+				E771D2751C6215BF00CCCB8B /* asl.h */,
 				3BC7272C1C24B52D003BC28A /* Sources */,
 				3B00E4D51BA36B840011486D /* Tests */,
 				3B00E4B91BA36B840011486D /* BuildControl */,
@@ -237,6 +240,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E771D2761C6215BF00CCCB8B /* asl.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,7 +400,7 @@
 		3BCBACE21BA369AD007F1C90 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0710;
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0710;
 				TargetAttributes = {
 					3B00E55C1BA3782D0011486D = {
