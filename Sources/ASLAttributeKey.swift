@@ -13,6 +13,8 @@ values.
 These values can be used to set or retrieve attributes on `ASLObject`
 instances.
 */
+import SwiftyBeaver
+
 public enum ASLAttributeKey: String
 {
     /// Represents the `ASL_KEY_TIME` constant.
